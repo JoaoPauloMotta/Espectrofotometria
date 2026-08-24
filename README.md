@@ -3,6 +3,7 @@ O funcionamento do sistema baseia-se na detecção da intensidade luminosa por m
 fotodiodo. Quando a luz atravessa ou é transmitida por uma amostra, uma parte dessa radiação pode
 ser absorvida pela substância. A quantidade de luz que chega ao detector, portanto, está relacionada às
 propriedades ópticas da amostra.
+
 O fotodiodo converte a luz incidente em um pequeno sinal elétrico, cuja intensidade varia de acordo
 com a quantidade de radiação recebida. Como esse sinal pode ser muito pequeno, utiliza-se o LM358
 como amplificador operacional para amplificar e tornar o sinal produzido pelo fotodiodo mais
@@ -16,12 +17,15 @@ A partir da comparação entre a intensidade da luz incidente e a intensidade da
 amostra, pode-se avaliar quanto da radiação foi absorvida. Essa relação é a base da
 espectrofotometria, técnica amplamente utilizada para caracterizar substâncias e determinar
 concentrações.
+
 A absorção pode ser expressa pela absorbância (A), calculada pela seguinte relação:
+
 A = -log10(I / I₀)
 onde:
 A = absorbância;
 I₀ = intensidade da luz incidente, antes de atravessar a amostra;
 I = intensidade da luz transmitida pela amostra.
+
 Assim, quanto menor for a intensidade de luz transmitida em relação à intensidade incidente, maior
 será a absorbância da amostra.
 O projeto demonstra, de maneira experimental e acessível, a relação entre luz, interação com a
